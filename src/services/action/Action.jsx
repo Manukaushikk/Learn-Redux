@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from '../constants'
+import { ADD_TO_CART } from '../Constants'
 export const addToCart = (data) => {
     // console.warn("action",data)
     return {

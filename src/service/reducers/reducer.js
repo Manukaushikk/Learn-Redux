@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from '../Constants'
+import { ADD_TO_CART } from '../constants'
 const initialState = {
     cardData: []
 }
@@ -8,7 +8,7 @@ export default function cardItems(state = [], action) {
             // console.warn("reducer",action)
             return [
                 ...state,
-                { cardData: action.data }
+                {cardData: action.data}
             ]
         default:
             return state
@@ -16,4 +16,3 @@ export default function cardItems(state = [], action) {
 
 
 }
-
