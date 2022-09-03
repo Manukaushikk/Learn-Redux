@@ -1,16 +1,14 @@
+import React from 'react';
 import './App.css';
-// import User from './User';
-import HomeContainer from './containers/HomeContainer';
-
+import HomeContainer from './containers/HomeContainer'
+import HeaderContainer from './containers/HeaderContainer'
 function App() {
   return (
-    <>
-      <div className='App'>
-        <HomeContainer/>
-        {/* <h1>App Component</h1> */}
-        {/* <User data={{ name: 'Maddox',age:21 }} /> */}
-      </div>
-    </>
+    <div className="App">
+      <HeaderContainer />
+
+      <HomeContainer />
+    </div>
   );
 }
 

@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from './Header'
 
 
 function Home(props) {
     return (
         <div>
-            <Header />
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
